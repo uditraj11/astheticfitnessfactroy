@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asthetic Fitness Factory</title>
+    <link rel="stylesheet" href="newgymweb.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo">asthetic Fitness</a>
+            <div class="togglemenu" onclick="togglemenu();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>Build Perfect Body </br>
+                    With Clean Mind</h2>
+                <p>¨Bodybuilding is much like any other sport. To be successful, you must dedicate yourself 100% to your training, diet and mental approach.¨ <br> – Arnold Schwarzenegger</p>
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+    function togglemenu(){
+        const togglemenu = document.querySelector('.togglemenu');
+        const navigation = document.querySelector('.navigation');
+        togglemenu.classList.toggle('active')
+        navigation.classList.toggle('active')
+
+
+    }
+    </script>
+
+</body>
+
+</html>
